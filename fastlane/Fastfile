@@ -65,6 +65,11 @@ platform :ios do
     output_name: "samplegroceries.ipa",
      xcargs: "PROVISIONING_PROFILE_SPECIFIER='" + ENV["sigh_io.rangle.native-script-cicd-example_adhoc_profile-name"] + "'"
     )
+    installr(
+      api_token: ENV["INSTALLR_API_KEY"],
+      ipa: "./out/samplegroceries.ipa",
+      notes:  "New Release"
+      )
 
   end
 
