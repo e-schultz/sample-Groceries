@@ -16,7 +16,7 @@
   },
   "homepage": "https://github.com/nativescript/sample-Groceries/groceries",
   "nativescript": {
-    "id": "org.nativescript.groceries",
+    "id": "io.rangle.native-script-cicd-example",
     "tns-android": {
       "version": "3.0.0"
     },
